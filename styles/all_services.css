@@ -1,0 +1,41 @@
+#all_services_list {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px -7px #c8c5c5;
+}
+
+.table-header{
+	background: #dfeffd;
+}
+
+#all_services_list tr td{
+	padding: 5px;
+}
+ 
+#all_services_list tr th{
+	padding: 10px;
+}
+
+#all_services_list .table-header {
+    background-color: #9fd2ff !important;
+}
+
+#all_services_list tbody tr:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+
+#all_services_list  tbody tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#all_services_list  tbody tr:nth-child(even):hover,
+#all_services_list tbody tr:nth-child(odd):hover {
+    background-color: #dfeffd;
+    cursor: pointer;
+}
+
